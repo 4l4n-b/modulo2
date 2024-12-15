@@ -1,0 +1,67 @@
+/* Configuración básica */
+body {
+    font-family: 'Russo One', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+    font-family: 'Mystery Quest', cursive;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Contenedor de villanos */
+.villain-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Tarjetas de villanos */
+.villain-card {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.villain-card:hover {
+    transform: scale(1.05);
+}
+
+/* Imágenes de villanos */
+.villain-card img {
+    max-width: 100%; /* Imagen no excede el contenedor */
+    height: auto; /* Mantiene la proporción */
+    border-bottom: 1px solid #ddd;
+}
+
+/* Títulos y texto */
+.villain-card h2 {
+    font-size: 20px;
+    margin: 15px 0 10px;
+    color: #111;
+}
+
+.villain-card p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 10px 15px;
+    color: #555;
+}
